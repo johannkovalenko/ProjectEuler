@@ -1,0 +1,16 @@
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\prod.exe
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\prod.deps.json
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\prod.runtimeconfig.json
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\prod.runtimeconfig.dev.json
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\prod.dll
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\ref\prod.dll
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\bin\Debug\net5.0\prod.pdb
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.csprojAssemblyReference.cache
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.AssemblyInfoInputs.cache
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.AssemblyInfo.cs
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.csproj.CoreCompileInputs.cache
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.dll
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\ref\prod.dll
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.pdb
+C:\Users\johan\OneDrive\Dokumente\Programming\Projects\ProjectEuler\prod\obj\Debug\net5.0\prod.genruntimeconfig.cache
