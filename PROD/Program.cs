@@ -10,14 +10,14 @@ namespace prod
             var stopwatch = new Stopwatch();
             int result = 0;
 
-            Exercise[] exercises = {new Exercise38()};
+            Exercise[] exercises = {new Exercise1(), new Exercise1_Krystian(), new Exercise1_Piotr(), new Exercise1()};
 
             foreach (Exercise exercise in exercises)
             {
                 stopwatch.Reset();
                 stopwatch.Start();
 
-                //for (int i=0; i<100; i++)
+                for (int i=0; i<100; i++)
                     result = exercise.Run(1000);
                 
                 stopwatch.Stop();

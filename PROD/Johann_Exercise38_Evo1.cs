@@ -3,11 +3,10 @@ using System.Collections.Generic;
 
 namespace prod
 {
-    class Exercise38 : Exercise
+    class Johann_Exercise38_Evo1 : Exercise
     {
         private bool[] sieve = new bool[100000];
         private Dictionary<int, string> potentialNumbers = new Dictionary<int, string>();
-        private Dictionary<int, string> allNumbers = new Dictionary<int, string>();
 
         public int Run(int parameter)
         {
@@ -22,7 +21,6 @@ namespace prod
 
             foreach (KeyValuePair<int, string> pair in potentialNumbers)
             {               
-                
                 int[] check = new int[10];
                 foreach (char digit in pair.Value)
                     check[digit - '0']++;
