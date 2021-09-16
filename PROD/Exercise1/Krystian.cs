@@ -1,8 +1,8 @@
-namespace prod
+namespace Exercise1
 {
-    class Exercise1_Krystian : Exercise
+    class Krystian : Exercise
     {
-        public int Run(int maxNumber)
+        public int Run()
         {
             int sum = 0;
             int smaller_number = 3;

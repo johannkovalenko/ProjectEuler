@@ -1,9 +1,11 @@
-namespace prod
+namespace Exercise1
 {
-    class Exercise1 : Exercise
+    class Johann : Exercise
     {
-        public int Run(int maxNumber)
+        public int Run()
         {
+            int maxNumber = 1000;
+
             bool[] bContainer = new bool[maxNumber + 1];
 
             int[] primes = {3, 5};

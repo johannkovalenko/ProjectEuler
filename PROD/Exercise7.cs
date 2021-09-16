@@ -2,7 +2,7 @@ using System;
 
 namespace prod
 {
-    class Exercise7 : Exercise
+    class Exercise7
     {
         public int Run(int parameter)
         {

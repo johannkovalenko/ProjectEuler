@@ -1,6 +1,6 @@
 namespace prod
 {
-    class Exercise2 : Exercise
+    class Exercise2
     {
         private int sum = 0;
         private int maxNumber;

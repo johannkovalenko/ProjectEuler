@@ -1,9 +1,10 @@
-namespace prod
+namespace Exercise1
 {
-    class Exercise1_Piotr_Evo1 : Exercise
+    class Piotr_Evo1 : Exercise
     {
-        public int Run(int maxNumber)
+        public int Run()
         {
+            int maxNumber = 1000;
             int answer = 0;
             int n = 0;
             int m1 = 0;
@@ -31,10 +32,11 @@ namespace prod
         }
     }
 
-    class Exercise1_Piotr : Exercise
+    class Piotr : Exercise
     {
-        public int Run(int maxNumber)
+        public int Run()
         {
+            int maxNumber = 1000;
             int answer = 0;
 
             //step 1

@@ -1,0 +1,4 @@
+interface Exercise
+{
+    int Run();
+}

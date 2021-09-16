@@ -8,7 +8,7 @@ namespace prod
         private bool[] sieve = new bool[100000];
         private Dictionary<int, string> potentialNumbers = new Dictionary<int, string>();
 
-        public int Run(int parameter)
+        public int Run()
         {
             Step1_SieveOut();
             Step2();
