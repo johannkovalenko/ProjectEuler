@@ -26,7 +26,7 @@ namespace prod
                 
                 stopwatch.Stop();
 
-                sb.Append(pair.Key + "\t" + result + "  " + stopwatch.Elapsed.TotalMilliseconds + "\r\n");
+                sb.Append(pair.Key + "\t" + result + "  " + stopwatch.Elapsed.TotalMilliseconds + " ms\r\n");
             }
 
             Console.WriteLine(sb.ToString());
@@ -40,6 +40,8 @@ namespace prod
             {
                 case "1":
                     return FactoryExercise1();
+                case "2":
+                    return FactoryExercise2();
                 default:
                     return FactoryExercise1();
             }
@@ -54,7 +56,18 @@ namespace prod
                 { "Krystian ", new Exercise1.Krystian() },
                 { "Johann1  ", new Exercise1.Johann() },
                 { "Piotr1   ", new Exercise1.Piotr() },
-                { "Krystian1", new Exercise1.Krystian() },
+                { "Krystian1", new Exercise1.Krystian() }
+            };
+        }
+
+        private static Dictionary<string, Exercise> FactoryExercise2()
+        {
+            return new Dictionary<string, Exercise>
+            {
+                { "Johann   ", new Exercise2.Johann() },
+                { "Kamila   ", new Exercise2.Kamila() },
+                { "Johann1  ", new Exercise2.Johann() },
+                { "Kamila1  ", new Exercise2.Kamila() } 
             };
         }
     }

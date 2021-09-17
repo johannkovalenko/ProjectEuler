@@ -1,13 +1,14 @@
-namespace prod
+namespace Exercise2
 {
-    class Exercise2
+    class Johann : Exercise
     {
-        private int sum = 0;
+        private int sum;
         private int maxNumber;
 
-        public int Run(int maxNumber)
+        public int Run()
         {
-            this.maxNumber = maxNumber;
+            sum = 0;
+            maxNumber = 4000000;
             Do(1, 1);
             return sum;    
         }
