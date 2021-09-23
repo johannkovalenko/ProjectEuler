@@ -66,8 +66,12 @@ namespace prod
             {
                 { "Johann   ", new Exercise2.Johann() },
                 { "Kamila   ", new Exercise2.Kamila() },
+                { "Krystian ", new Exercise2.Krystian() },
+                { "Dawid    ", new Exercise2.Dawid() },
                 { "Johann1  ", new Exercise2.Johann() },
-                { "Kamila1  ", new Exercise2.Kamila() } 
+                { "Kamila1  ", new Exercise2.Kamila() }, 
+                { "Krystian1", new Exercise2.Krystian() },
+                { "Dawid1    ", new Exercise2.Dawid() }
             };
         }
     }
