@@ -42,6 +42,8 @@ namespace prod
                     return FactoryExercise1();
                 case "2":
                     return FactoryExercise2();
+                case "3":
+                    return FactoryExercise3();
                 default:
                     return FactoryExercise1();
             }
@@ -72,6 +74,17 @@ namespace prod
                 { "Kamila1  ", new Exercise2.Kamila() }, 
                 { "Krystian1", new Exercise2.Krystian() },
                 { "Dawid1    ", new Exercise2.Dawid() }
+            };
+        }
+
+        private static Dictionary<string, Exercise> FactoryExercise3()
+        {
+            return new Dictionary<string, Exercise>
+            {
+                { "Johann   ", new Exercise3.Johann() },
+                { "Kamila   ", new Exercise3.Kamila() },
+                { "Johann1  ", new Exercise3.Johann() },
+                { "Kamila1  ", new Exercise3.Kamila() }
             };
         }
     }

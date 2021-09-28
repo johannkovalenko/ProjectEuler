@@ -1,11 +1,13 @@
 using System; 
 
-namespace prod
+namespace Exercise3
 {
-    class Exercise3
+    class Johann : Exercise
     {
-        public int Run(long maxNumber)
+        public int Run()
         {
+            long maxNumber = 600851475143;
+
             int sqrt = (int)Math.Sqrt(maxNumber) + 1;
 
             bool[] bContainer = new bool[sqrt];
