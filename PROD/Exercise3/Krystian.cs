@@ -19,7 +19,7 @@ namespace Exercise3
                     Prime++;
                 }
             }
-            return Prime;
+            return (int)Prime;
         }
     }
 }

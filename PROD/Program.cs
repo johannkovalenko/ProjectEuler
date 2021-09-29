@@ -83,8 +83,10 @@ namespace prod
             {
                 { "Johann   ", new Exercise3.Johann() },
                 { "Kamila   ", new Exercise3.Kamila() },
+                { "Krystian ", new Exercise3.Krystian() },
                 { "Johann1  ", new Exercise3.Johann() },
-                { "Kamila1  ", new Exercise3.Kamila() }
+                { "Kamila1  ", new Exercise3.Kamila() },
+                { "Krystian1", new Exercise3.Krystian() }
             };
         }
     }
