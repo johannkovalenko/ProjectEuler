@@ -99,7 +99,9 @@ namespace prod
             return new Dictionary<string, Exercise>
             {
                 { "Dawid    ", new Exercise4.Dawid() },
-                { "Dawid1   ", new Exercise4.Dawid() }
+                { "Johann   ", new Exercise4.Johann() },
+                { "Dawid1   ", new Exercise4.Dawid() },
+                { "Johann1   ", new Exercise4.Johann() }
             };
         }
     }
