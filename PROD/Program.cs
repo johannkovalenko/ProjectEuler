@@ -98,10 +98,15 @@ namespace prod
         {
             return new Dictionary<string, Exercise>
             {
-                { "Dawid    ", new Exercise4.Dawid() },
-                { "Johann   ", new Exercise4.Johann() },
-                { "Dawid1   ", new Exercise4.Dawid() },
-                { "Johann1   ", new Exercise4.Johann() }
+                { "Dawid     ", new Exercise4.Dawid() },
+                { "DawidEvo2 ", new Exercise4.Dawid_Evo2() },
+                //{ "Johann   ", new Exercise4.Johann() },
+                //{ "Krystian ", new Exercise4.Krystian() },
+                { "Dawid1    ", new Exercise4.Dawid() },
+                { "Dawid1Evo2", new Exercise4.Dawid_Evo2() }
+                //{ "Johann1  ", new Exercise4.Johann() },
+                //{ "Johann2  ", new Exercise4.Johann_Evo1() },
+                //{ "Krystian1", new Exercise4.Krystian() }
             };
         }
     }
