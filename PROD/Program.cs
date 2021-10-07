@@ -105,7 +105,7 @@ namespace prod
                 { "JohannEvo1 ", new Exercise4.Johann_Evo1() },
                 { "Krystian   ", new Exercise4.Krystian() },
                 { "Dawid1     ", new Exercise4.Dawid() },
-                { "Dawid1Evo2 ", new Exercise4.Dawid_Evo2() }
+                { "Dawid1Evo2 ", new Exercise4.Dawid_Evo2() },
                 { "Dawid1Evo3 ", new Exercise4.Dawid_Evo3() },
                 { "Johann1    ", new Exercise4.Johann() },
                 { "Johann1Evo1", new Exercise4.Johann_Evo1() },
