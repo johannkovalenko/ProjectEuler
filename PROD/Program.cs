@@ -98,15 +98,18 @@ namespace prod
         {
             return new Dictionary<string, Exercise>
             {
-                { "Dawid     ", new Exercise4.Dawid() },
-                { "DawidEvo2 ", new Exercise4.Dawid_Evo2() },
-                //{ "Johann   ", new Exercise4.Johann() },
-                //{ "Krystian ", new Exercise4.Krystian() },
-                { "Dawid1    ", new Exercise4.Dawid() },
-                { "Dawid1Evo2", new Exercise4.Dawid_Evo2() }
-                //{ "Johann1  ", new Exercise4.Johann() },
-                //{ "Johann2  ", new Exercise4.Johann_Evo1() },
-                //{ "Krystian1", new Exercise4.Krystian() }
+                { "Dawid      ", new Exercise4.Dawid() },
+                { "DawidEvo2  ", new Exercise4.Dawid_Evo2() },
+                { "DawidEvo3  ", new Exercise4.Dawid_Evo3() },
+                { "Johann     ", new Exercise4.Johann() },
+                { "JohannEvo1 ", new Exercise4.Johann_Evo1() },
+                { "Krystian   ", new Exercise4.Krystian() },
+                { "Dawid1     ", new Exercise4.Dawid() },
+                { "Dawid1Evo2 ", new Exercise4.Dawid_Evo2() }
+                { "Dawid1Evo3 ", new Exercise4.Dawid_Evo3() },
+                { "Johann1    ", new Exercise4.Johann() },
+                { "Johann1Evo1", new Exercise4.Johann_Evo1() },
+                { "Krystian1  ", new Exercise4.Krystian() }
             };
         }
     }
