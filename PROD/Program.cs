@@ -48,6 +48,8 @@ namespace prod
                     return FactoryExercise4();
                 case "5":
                     return FactoryExercise5();
+                case "6":
+                    return FactoryExercise6();
                 default:
                     return FactoryExercise1();
             }
@@ -100,16 +102,10 @@ namespace prod
         {
             return new Dictionary<string, Exercise>
             {
-                { "Dawid      ", new Exercise4.Dawid() },
-                { "DawidEvo2  ", new Exercise4.Dawid_Evo2() },
                 { "DawidEvo3  ", new Exercise4.Dawid_Evo3() },
-                { "Johann     ", new Exercise4.Johann() },
                 { "JohannEvo1 ", new Exercise4.Johann_Evo1() },
                 { "Krystian   ", new Exercise4.Krystian() },
-                { "Dawid1     ", new Exercise4.Dawid() },
-                { "Dawid1Evo2 ", new Exercise4.Dawid_Evo2() },
                 { "Dawid1Evo3 ", new Exercise4.Dawid_Evo3() },
-                { "Johann1    ", new Exercise4.Johann() },
                 { "Johann1Evo1", new Exercise4.Johann_Evo1() },
                 { "Krystian1  ", new Exercise4.Krystian() }
             };
@@ -121,10 +117,19 @@ namespace prod
             {
                 { "Johann     ", new Exercise5.Johann() },
                 { "Krystian   ", new Exercise5.Krystian() },
-                { "Kamila     ", new Exercise5.Kamila() },
+                { "Kamila     ", new Exercise5.Kamila_Evo1() },
                 { "Johann1    ", new Exercise5.Johann() },
                 { "Krystian1  ", new Exercise5.Krystian() },
-                { "Kamila1    ", new Exercise5.Kamila() }
+                { "Kamila1    ", new Exercise5.Kamila_Evo1() },
+            };
+        }
+
+        private static Dictionary<string, Exercise> FactoryExercise6()
+        {
+            return new Dictionary<string, Exercise>
+            {
+                { "Johann     ", new Exercise6.Johann() },
+                { "Johann1    ", new Exercise6.Johann() }
             };
         }
     }
