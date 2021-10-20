@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace Exercise4
+namespace Exercise6
 {
     class Krystian : Exercise
     {

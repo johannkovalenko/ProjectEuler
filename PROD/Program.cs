@@ -129,7 +129,11 @@ namespace prod
             return new Dictionary<string, Exercise>
             {
                 { "Johann     ", new Exercise6.Johann() },
-                { "Johann1    ", new Exercise6.Johann() }
+                { "Krystian   ", new Exercise6.Krystian() },
+                { "Dawid      ", new Exercise6.Dawid() },
+                { "Johann1    ", new Exercise6.Johann() },
+                { "Krystian1  ", new Exercise6.Krystian() },
+                { "Dawid1     ", new Exercise6.Dawid() }
             };
         }
     }
