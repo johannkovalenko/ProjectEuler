@@ -130,9 +130,11 @@ namespace prod
             {
                 { "Johann     ", new Exercise6.Johann() },
                 { "Krystian   ", new Exercise6.Krystian() },
+                { "Kamila     ", new Exercise6.Kamila() },
                 { "Dawid      ", new Exercise6.Dawid() },
                 { "Johann1    ", new Exercise6.Johann() },
                 { "Krystian1  ", new Exercise6.Krystian() },
+                { "Kamila1    ", new Exercise6.Kamila() },
                 { "Dawid1     ", new Exercise6.Dawid() }
             };
         }
