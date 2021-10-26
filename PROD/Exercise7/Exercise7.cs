@@ -2,11 +2,12 @@ using System;
 
 namespace prod
 {
-    class Exercise7
+    class Johann : Exercise
     {
-        public int Run(int parameter)
+        public int Run()
         {
             int counter = 0;
+            int parameter = 0;
 
             bool[] bContainer = new bool[1000000];
 
