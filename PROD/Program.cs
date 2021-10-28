@@ -50,6 +50,8 @@ namespace prod
                     return FactoryExercise5();
                 case "6":
                     return FactoryExercise6();
+                case "7":
+                    return FactoryExercise7();
                 default:
                     return FactoryExercise1();
             }
@@ -136,6 +138,21 @@ namespace prod
                 { "Krystian1  ", new Exercise6.Krystian() },
                 { "Kamila1    ", new Exercise6.Kamila() },
                 { "Dawid1     ", new Exercise6.Dawid() }
+            };
+        }
+
+        private static Dictionary<string, Exercise> FactoryExercise7()
+        {
+            return new Dictionary<string, Exercise>
+            {
+                { "Johann     ", new Exercise7.Johann() },
+                // { "Krystian   ", new Exercise6.Krystian() },
+                // { "Kamila     ", new Exercise6.Kamila() },
+                // { "Dawid      ", new Exercise6.Dawid() },
+                { "Johann1    ", new Exercise7.Johann() }
+                // { "Krystian1  ", new Exercise6.Krystian() },
+                // { "Kamila1    ", new Exercise6.Kamila() },
+                // { "Dawid1     ", new Exercise6.Dawid() }
             };
         }
     }
