@@ -8,7 +8,6 @@ namespace Exercise7
         {
             int parameter = 10001;
             int counter = 0;
-            int parameter = 0;
 
             bool[] bContainer = new bool[1000000];
 
