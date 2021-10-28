@@ -1,11 +1,12 @@
 using System;
 
-namespace prod
+namespace Exercise7
 {
     class Johann : Exercise
     {
         public int Run()
         {
+            int parameter = 10001;
             int counter = 0;
             int parameter = 0;
 

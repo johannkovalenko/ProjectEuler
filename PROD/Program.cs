@@ -52,8 +52,6 @@ namespace prod
                     return FactoryExercise6();
                 case "7":
                     return FactoryExercise7();
-                case "8":
-                    return FactoryExercise8();
                 default:
                     return FactoryExercise1();
             }
@@ -134,9 +132,11 @@ namespace prod
             {
                 { "Johann     ", new Exercise6.Johann() },
                 { "Krystian   ", new Exercise6.Krystian() },
+                { "Kamila     ", new Exercise6.Kamila() },
                 { "Dawid      ", new Exercise6.Dawid() },
                 { "Johann1    ", new Exercise6.Johann() },
                 { "Krystian1  ", new Exercise6.Krystian() },
+                { "Kamila1    ", new Exercise6.Kamila() },
                 { "Dawid1     ", new Exercise6.Dawid() }
             };
         }
@@ -145,17 +145,14 @@ namespace prod
         {
             return new Dictionary<string, Exercise>
             {
-                { "Dawid      ", new Exercise7.Dawid() },
-                { "Dawid1     ", new Exercise7.Dawid() }
-            };
-        }
-
-        private static Dictionary<string, Exercise> FactoryExercise8()
-        {
-            return new Dictionary<string, Exercise>
-            {
-                { "Dawid      ", new Exercise8.Dawid() },
-                { "Dawid1     ", new Exercise8.Dawid() }
+                { "Johann     ", new Exercise7.Johann() },
+                // { "Krystian   ", new Exercise6.Krystian() },
+                // { "Kamila     ", new Exercise6.Kamila() },
+                // { "Dawid      ", new Exercise6.Dawid() },
+                { "Johann1    ", new Exercise7.Johann() }
+                // { "Krystian1  ", new Exercise6.Krystian() },
+                // { "Kamila1    ", new Exercise6.Kamila() },
+                // { "Dawid1     ", new Exercise6.Dawid() }
             };
         }
     }
