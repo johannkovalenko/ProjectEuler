@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PROD",
+    "\\PROD\\Exercise8"
   ],
-  "SelectedNode": "\\C:\\Users\\klako\\Source\\Repos\\ProjectEuler",
+  "SelectedNode": "\\PROD\\Exercise8\\Krystian.cs",
   "PreviewInSolutionExplorer": false
 }
